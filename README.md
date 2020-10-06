@@ -56,7 +56,7 @@ mlp.fit(X_train, y_train)
 
 After training the data, we can start analysing the model with the validation and test set by comparing the model's predictions to the true expected values, getting the accuracy score and plotting the cost function over time.
 
-![](images/nn-diagram.pdf)
+![](images/nn-diagram.png)
 
 
 
