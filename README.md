@@ -27,3 +27,19 @@ pip install pandas, matplotlib, sklearn, os, cv2, csv, warnings
 ```
 
 
+Initialising Data
+-----------------
+The first part in solving this problem is to retrieve a suitable amount of features
+
+
+
+
+
+
+
+
+
+
+
+
+
