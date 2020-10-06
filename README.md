@@ -39,7 +39,7 @@ The first step of this process is to gather enough data for the neural network. 
 Initialising Data
 -----------------
 All of the code can be found in GenerateData.py
-After gathering the training data, we convert the image into a grayscale image before converting it into a numpy array of pixels using cv2, this is simply because having colours will not affect the identification of the letters as well as having colours consume more memory space due to rgb needing to be stored instead of a singular float. After converting the image into a numpy array, I regularised the data by dividing it by 255, since it is black and white, the white is noted as 1, and black as 0. This way it is easier for the neural network to do its gradient descent. We store the regularised arrays with its expected letter in a CSV file (DATA.csv) where it could be used for training the neural network.
+After gathering the training data, we convert the image into a grayscale image before converting it into a numpy array of pixels using cv2, this is simply because having colours will not affect the identification of the letters as well as having colours consume more memory space due to rgb needing to be stored instead of a singular float. After converting the image into a 30x30 numpy array, I regularised the data by dividing it by 255, since it is black and white, the white is noted as 1, and black as 0. This way it is easier for the neural network to do its gradient descent. We store the regularised arrays with its expected letter in a CSV file (DATA.csv) where it could be used for training the neural network.
 
 
 Training the Neural Network
