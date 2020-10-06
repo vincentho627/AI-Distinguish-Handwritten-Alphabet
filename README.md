@@ -26,10 +26,14 @@ Installing package, run:
 pip install pandas, matplotlib, sklearn, os, cv2, csv, warnings
 ```
 
+Quick Overview
+--------------
+In order to distinguish handwritten alphabets, I started off planning the machine learning model. The whole process can be separated through a pipeline (as seen down below). The first part is gathering enough images to be represented as data, then converting the image into useful data for the neural network, then followed by training the neural network to be able to predict new photos
+
 
 Initialising Data
 -----------------
-The first part in solving this problem is to retrieve a suitable amount of features
+
 
 
 
