@@ -31,9 +31,30 @@ Quick Overview
 In order to distinguish handwritten alphabets, I started off planning the machine learning model. The whole process can be separated through a pipeline (as seen down below). The first part is gathering enough images to be represented as data, then converting the image into useful data for the neural network, then followed by training the neural network to be able to predict new photos
 
 
+Gathering Images
+----------------
+The first step of this process is to gather enough data for the neural network. I made sure to gather an equal amount for each class to ensure that all classes were considered equally and had enough data to identify them. Since there are a lot of free white spaces around the letters, it decreases the accuracy of the features as the only useful data of the image is relatively small. A solution I arrived at was to build identifier allowing the letters to be boxed, making the new margin to be the training data.
+
+
 Initialising Data
 -----------------
+All of the code can be found in GenerateData.py
+After gathering the training data, we convert the image into a grayscale image before converting it into a numpy array of pixels using cv2, this is simply because having colours will not affect the identification of the letters as well as having colours consume more memory space due to rgb needing to be stored instead of a singular float. After converting the image into a numpy array, I regularised the data by dividing it by 255, since it is black and white, the white is noted as 1, and black as 0. This way it is easier for the neural network to do its gradient descent. We store the regularised arrays with its expected letter in a CSV file (DATA.csv) where it could be used for training the neural network.
 
+
+Training the Neural Network
+---------------------------
+All of the code can be found in Recognition.py
+
+Once the CSV file is written, we can finally start training the neural network. First we shuffle the data set in the CSV and split it up into 3 sub sets, 80% training set, 10% validation set and 10% test set. The training set is used train the data, the validation set is used to identify number of hidden layers and what the learning rate should be, and the test set to see the accuracy of the model. 
+
+The solving algorithm I used here is stochastic gradient descent, simply because I have the best understanding of that algorithm. I intialised the max iteration to be 300 in order to ensure the cost function is minimised, and setting the 3 hidden layers (512, 127, 50). Training the neural network is relatively simple using sklearn and the code can be found below:
+```python 
+mlp = MLPClassifier(solver="sgd", hidden_layer_sizes=(512, 127, 50), max_iter=300, verbose=1)
+mlp.fit(X_train, y_train)
+```
+
+After training the data, we can start analysing the model with the validation and test set by comparing the model's predictions to the true expected values, getting the accuracy score and plotting the cost function over time.
 
 
 
