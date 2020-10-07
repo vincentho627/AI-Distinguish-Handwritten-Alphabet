@@ -60,7 +60,7 @@ All of the code can be found in GenerateData.py
 
 After gathering the training data, I converted the images into a grayscale images before converting it into a NumPy array of pixels using cv2, this is simply because having colors will not affect the identification of the letters as well as having colors consume more memory space due to RGB needs to be stored instead of a singular float. I first regularised the data by dividing it by 255, then converted the image into a 60x60 NumPy array and passed it into the DectectingLetter function to box the letter of the image. The reason for the 60x60 array is that it has enough data for the model to recognise what letter it is suppose to reperesent but also not having to increase the time used in the for loops. After that, I converted the boxed letter image into a 30x30 NumPy array, since it is black and white, the white is noted as 1, and black as 0. This way it is easier for the neural network to do its gradient descent. We store the regularised arrays with its expected letter in a CSV file (DATA.csv) where it could be used for training the neural network.
 
-&nbsp; ![](images/a.png) &nbsp;&nbsp; ![](images/w.png) &nbsp;&nbsp; ![](images/n.png)
+&nbsp; ![](images/a.png) &nbsp;&nbsp; ![](images/w.png) &nbsp;&nbsp; ![](images/n.png) &nbsp;&nbsp; ![](images/p.png)
 
 
 Training the Neural Network
