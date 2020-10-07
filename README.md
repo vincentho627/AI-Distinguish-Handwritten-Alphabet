@@ -38,6 +38,10 @@ All of the data images can be found in the DATA folder
 
 The first step of this process is to gather enough data for the neural network. I made sure to gather an equal amount for each class to ensure that all classes were considered equally and had enough data to identify them. Since there are a lot of free white spaces around the letters, it decreases the accuracy of the features as the only useful data of the image (i.e the letter) is relatively small. A solution I arrived at was to build an identifier allowing the letters to be boxed, making the new margin to be the training data. The function DetectingLetter(img_array) takes the image NumPy array and returns the boxed image NumPy array containing the letter.
 
+Quick example:
+
+![](images/boxed-a.png)
+
 
 Initialising Data
 -----------------
