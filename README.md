@@ -40,7 +40,7 @@ The first step of this process is to gather enough data for the neural network. 
 
 Quick example:
 
-![](images/boxed-a.png0)
+![](images/boxed-a.png)
 
 
 Initialising Data
