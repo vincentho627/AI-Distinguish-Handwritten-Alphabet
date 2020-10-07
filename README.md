@@ -26,6 +26,16 @@ Installing package, run:
 pip install pandas, matplotlib, sklearn, os, cv2, csv, warnings
 ```
 
+Run Script
+----------
+The main python script is Main.py and it runs all the functions from the other files.
+
+To run the script: 
+
+```
+python main.py
+```
+
 Quick Overview
 --------------
 To distinguish handwritten alphabets, I started off planning the machine learning model. The whole process can be separated through a pipeline (as seen down below). The first part is gathering enough images to be represented as data, then converting the image into useful data for the neural network, then followed by training the neural network to be able to predict new photos
