@@ -40,7 +40,7 @@ The first step of this process is to gather enough data for the neural network. 
 
 Quick example:
 
-![](images/unboxed-a.png) &nbsp;&nbsp;&nbsp;&nbsp; ![](images/boxed-a.png)
+![](images/boxed-a.png)
 
 
 Initialising Data
@@ -72,6 +72,12 @@ After training the data, we can start analysing the model with the validation an
 Results
 -------
 After running the model with the training set, I have tested the model with the validation set and test set. The result of running the model with stochastic gradient descent can be found in the SgdResult.txt file, but to summarise, the validation set had an accuracy of 93% while the test set had an accuracy of 90%.
+
+```python
+Training set score: 1.000000
+Validation set score: 0.930233
+Test set score: 0.902098
+```
 
 I have also ran the model with Adam as its solver and the results can be found in the AdamResult.txt file, it has a 93.7% accuracy for the validation set and 90% accuracy for the test set.
 
