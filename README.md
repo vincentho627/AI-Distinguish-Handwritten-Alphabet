@@ -30,6 +30,7 @@ Quick Overview
 --------------
 To distinguish handwritten alphabets, I started off planning the machine learning model. The whole process can be separated through a pipeline (as seen down below). The first part is gathering enough images to be represented as data, then converting the image into useful data for the neural network, then followed by training the neural network to be able to predict new photos
 
+![](images/pipeline.png)
 
 Gathering Images
 ----------------
