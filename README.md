@@ -79,7 +79,7 @@ Validation set score: 0.937984
 Test set score: 0.909091
 ```
 
-I have also ran the model with stochastic gradient descent as its solver and the results can be found in the AdamResult.txt file, it has a 93.% accuracy for the validation set and 90% accuracy for the test set.
+I have also ran the model with stochastic gradient descent as its solver and the results can be found in the SdgResult.txt file, it has a 93.% accuracy for the validation set and 90% accuracy for the test set.
 ```
 Training set score: 1.000000
 Validation set score: 0.930233
