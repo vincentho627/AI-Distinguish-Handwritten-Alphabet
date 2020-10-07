@@ -59,7 +59,7 @@ All of the code can be found in Recognition.py
 
 Once the CSV file is written, we can finally start training the neural network. First, we shuffle the data set in the CSV and split it up into 3 subsets, 80% training set, 10% validation set and 10% test set. The training set is used to train the data, the validation set is used to identify several hidden layers and what the learning rate should be, and the test set to see the accuracy of the model. 
 
-The solving algorithm I used is stochastic gradient descent, simply because I have the best understanding of that algorithm. I initialised the max iteration to be 300 in order to ensure the cost function is minimised and setting the 3 hidden layers (512, 127, 50). Training the neural network is relatively simple using sklearn and the code can be found below:
+The solving algorithm I used is adam. I initialised the max iteration to be 300 in order to ensure the cost function is minimised and setting the 3 hidden layers (512, 127, 50). Training the neural network is relatively simple using sklearn and the code can be found below:
 ```python 
 mlp = MLPClassifier(solver="sgd", hidden_layer_sizes=(512, 127, 50), max_iter=300, verbose=1)
 mlp.fit(X_train, y_train)
@@ -72,15 +72,19 @@ After training the data, we can start analysing the model with the validation an
 
 Results
 -------
-After running the model with the training set, I have tested the model with the validation set and test set. The result of running the model with stochastic gradient descent can be found in the SgdResult.txt file, but to summarise, the validation set had an accuracy of 93% while the test set had an accuracy of 90%.
+After running the model with the training set, I have tested the model with the validation set and test set. The result of running the model with adam can be found in the Adam.txt file, but to summarise, the validation set had an accuracy of 93.7% while the test set had an accuracy of 90%.
+```
+Training set score: 1.000000
+Validation set score: 0.937984
+Test set score: 0.909091
+```
 
-```python
+I have also ran the model with stochastic gradient descent as its solver and the results can be found in the AdamResult.txt file, it has a 93.% accuracy for the validation set and 90% accuracy for the test set.
+```
 Training set score: 1.000000
 Validation set score: 0.930233
 Test set score: 0.902098
 ```
-
-I have also ran the model with Adam as its solver and the results can be found in the AdamResult.txt file, it has a 93.7% accuracy for the validation set and 90% accuracy for the test set.
 
 A graph of the cost function can be found below:
 
