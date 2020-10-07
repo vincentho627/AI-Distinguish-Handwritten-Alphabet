@@ -19,9 +19,6 @@ def Train(file_name, class_name):
 
     label = LabelEncoder()
 
-    # makes good = 1, bad = 0
-    # file[class_name] = label.fit_transform(file[class_name])
-
     # counts no. of 0 and 1
     file[class_name].value_counts()
 
@@ -43,7 +40,7 @@ def Train(file_name, class_name):
 
     # use stochastic gradient descent
     # verbose makes it print out the loss (cost) function per iteration
-    mlp = MLPClassifier(solver="sgd", hidden_layer_sizes=(512, 127, 50), max_iter=300, verbose=1)
+    mlp = MLPClassifier(solver="adam", hidden_layer_sizes=(512, 127, 50), max_iter=300, verbose=1)
     # if you want to try it out with logistic regression
     # mlp = LogisticRegression(solver="lbfgs", max_iter=300)
 

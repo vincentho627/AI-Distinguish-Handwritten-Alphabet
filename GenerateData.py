@@ -31,8 +31,6 @@ def GetTrainingData(file_name):
                     boxed_array = DetectingLetter(new_array)
                     # resize to 30x30 array
                     boxed_array = cv2.resize(boxed_array, (IMG_SIZE, IMG_SIZE))
-                    plt.imshow(boxed_array, cmap='gray')
-                    plt.show()
                     training_set = ""
                     # writing the arrays onto the DATA.csv file
                     for i in boxed_array:
@@ -42,10 +40,7 @@ def GetTrainingData(file_name):
                     amount += 1
                 except Exception as e:
                     print(e)
-                    
+
             print("Category " + category + " has " + str(amount) + " pictures")
         file.close()
-
-
-GetTrainingData('DATA.csv')
 
