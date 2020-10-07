@@ -59,8 +59,11 @@ After training the data, we can start analysing the model with the validation an
 ![](images/nn-diagram.png)
 
 
+Results
+-------
+After running the model with the training set, I have tested the model with the validation set and test set. The result of running the model with stochastic gradient descent can be found in the SgdResult.txt file, but to summarise, the validation set had an accuracy of 93% while the test set had an accuracy of 90%.
 
-
+I have also ran the model with Adam as its solver and the results can be found in the AdamResult.txt file, it has a 93.7% accuracy for the validation set and 90% accuracy for the test set.
 
 
 
