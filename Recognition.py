@@ -1,5 +1,3 @@
-import csv
-import os
 import warnings
 
 import pandas as pd
@@ -45,8 +43,9 @@ def Train(file_name, class_name):
 
     # use stochastic gradient descent
     # verbose makes it print out the loss (cost) function per iteration
-    mlp = MLPClassifier(solver="adam", hidden_layer_sizes=(512, 127, 50), max_iter=10, verbose=1)
-    # mlp = LogisticRegression(solver="lbfgs", max_iter=500)
+    mlp = MLPClassifier(solver="sgd", hidden_layer_sizes=(512, 127, 50), max_iter=300, verbose=1)
+    # if you want to try it out with logistic regression
+    # mlp = LogisticRegression(solver="lbfgs", max_iter=300)
 
     # trains neural network
     # won't converge because of CI's time constraints, so we catch the warning and are ignore it here
@@ -93,8 +92,8 @@ def Print_Result(mlp: MLPClassifier, X_train, y_train, X_val, y_val, X_test, y_t
     print("Validation set score: %f" % mlp.score(X_val, y_val))
     print("Test set score: %f" % mlp.score(X_test, y_test))
 
+    # if used logistic regression comment the following code out
     plt.plot(mlp.loss_curve_)
     plt.show()
 
 
-Train('DATA.csv', 'class')

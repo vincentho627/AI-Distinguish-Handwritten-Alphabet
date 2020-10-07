@@ -1,0 +1,430 @@
+------------------------------------------------------------------------------
+INITIALISING DATA
+------------------------------------------------------------------------------
+Category A has 55 pictures
+Category B has 55 pictures
+Category C has 55 pictures
+Category D has 55 pictures
+Category E has 55 pictures
+Category F has 55 pictures
+Category G has 55 pictures
+Category H has 55 pictures
+Category I has 55 pictures
+Category J has 55 pictures
+Category K has 55 pictures
+Category L has 55 pictures
+Category M has 55 pictures
+Category N has 55 pictures
+Category O has 55 pictures
+Category P has 55 pictures
+Category Q has 55 pictures
+Category R has 55 pictures
+Category S has 55 pictures
+Category T has 55 pictures
+Category U has 55 pictures
+Category V has 55 pictures
+Category W has 55 pictures
+Category X has 55 pictures
+Category Y has 55 pictures
+Category Z has 55 pictures
+------------------------------------------------------------------------------
+TRAINING MODEL
+------------------------------------------------------------------------------
+Iteration 1, loss = 3.38759771
+Iteration 2, loss = 3.27034225
+Iteration 3, loss = 3.12091065
+Iteration 4, loss = 2.96693705
+Iteration 5, loss = 2.82068985
+Iteration 6, loss = 2.68104676
+Iteration 7, loss = 2.54501028
+Iteration 8, loss = 2.41233297
+Iteration 9, loss = 2.27916895
+Iteration 10, loss = 2.14680529
+Iteration 11, loss = 2.01287185
+Iteration 12, loss = 1.88035355
+Iteration 13, loss = 1.74878878
+Iteration 14, loss = 1.62091244
+Iteration 15, loss = 1.49870236
+Iteration 16, loss = 1.38263082
+Iteration 17, loss = 1.27342493
+Iteration 18, loss = 1.17369638
+Iteration 19, loss = 1.08210311
+Iteration 20, loss = 0.99947815
+Iteration 21, loss = 0.92539409
+Iteration 22, loss = 0.85788571
+Iteration 23, loss = 0.79866992
+Iteration 24, loss = 0.74551886
+Iteration 25, loss = 0.69751723
+Iteration 26, loss = 0.65480517
+Iteration 27, loss = 0.61617872
+Iteration 28, loss = 0.58142609
+Iteration 29, loss = 0.54944389
+Iteration 30, loss = 0.52082168
+Iteration 31, loss = 0.49418421
+Iteration 32, loss = 0.47084121
+Iteration 33, loss = 0.44846856
+Iteration 34, loss = 0.42851574
+Iteration 35, loss = 0.40952466
+Iteration 36, loss = 0.39232622
+Iteration 37, loss = 0.37597080
+Iteration 38, loss = 0.36092978
+Iteration 39, loss = 0.34738876
+Iteration 40, loss = 0.33384510
+Iteration 41, loss = 0.32173197
+Iteration 42, loss = 0.31021668
+Iteration 43, loss = 0.29939506
+Iteration 44, loss = 0.28901799
+Iteration 45, loss = 0.27935436
+Iteration 46, loss = 0.27022834
+Iteration 47, loss = 0.26146615
+Iteration 48, loss = 0.25326450
+Iteration 49, loss = 0.24544999
+Iteration 50, loss = 0.23813921
+Iteration 51, loss = 0.23134285
+Iteration 52, loss = 0.22426745
+Iteration 53, loss = 0.21807761
+Iteration 54, loss = 0.21177079
+Iteration 55, loss = 0.20597553
+Iteration 56, loss = 0.20043110
+Iteration 57, loss = 0.19506700
+Iteration 58, loss = 0.18987658
+Iteration 59, loss = 0.18506338
+Iteration 60, loss = 0.18025412
+Iteration 61, loss = 0.17576637
+Iteration 62, loss = 0.17139270
+Iteration 63, loss = 0.16711696
+Iteration 64, loss = 0.16310245
+Iteration 65, loss = 0.15924130
+Iteration 66, loss = 0.15545233
+Iteration 67, loss = 0.15176171
+Iteration 68, loss = 0.14816707
+Iteration 69, loss = 0.14485102
+Iteration 70, loss = 0.14158819
+Iteration 71, loss = 0.13846842
+Iteration 72, loss = 0.13539074
+Iteration 73, loss = 0.13231449
+Iteration 74, loss = 0.12953530
+Iteration 75, loss = 0.12677152
+Iteration 76, loss = 0.12403877
+Iteration 77, loss = 0.12139003
+Iteration 78, loss = 0.11893785
+Iteration 79, loss = 0.11646369
+Iteration 80, loss = 0.11414520
+Iteration 81, loss = 0.11173436
+Iteration 82, loss = 0.10955523
+Iteration 83, loss = 0.10737643
+Iteration 84, loss = 0.10532005
+Iteration 85, loss = 0.10324692
+Iteration 86, loss = 0.10124976
+Iteration 87, loss = 0.09931814
+Iteration 88, loss = 0.09748960
+Iteration 89, loss = 0.09566389
+Iteration 90, loss = 0.09388448
+Iteration 91, loss = 0.09212568
+Iteration 92, loss = 0.09050700
+Iteration 93, loss = 0.08888247
+Iteration 94, loss = 0.08721958
+Iteration 95, loss = 0.08565046
+Iteration 96, loss = 0.08415904
+Iteration 97, loss = 0.08269149
+Iteration 98, loss = 0.08125154
+Iteration 99, loss = 0.07986886
+Iteration 100, loss = 0.07850215
+Iteration 101, loss = 0.07716858
+Iteration 102, loss = 0.07580583
+Iteration 103, loss = 0.07460790
+Iteration 104, loss = 0.07335212
+Iteration 105, loss = 0.07212112
+Iteration 106, loss = 0.07098195
+Iteration 107, loss = 0.06986571
+Iteration 108, loss = 0.06871514
+Iteration 109, loss = 0.06762919
+Iteration 110, loss = 0.06654578
+Iteration 111, loss = 0.06553711
+Iteration 112, loss = 0.06453487
+Iteration 113, loss = 0.06355591
+Iteration 114, loss = 0.06257687
+Iteration 115, loss = 0.06157591
+Iteration 116, loss = 0.06067414
+Iteration 117, loss = 0.05978706
+Iteration 118, loss = 0.05890305
+Iteration 119, loss = 0.05806176
+Iteration 120, loss = 0.05717801
+Iteration 121, loss = 0.05640409
+Iteration 122, loss = 0.05554462
+Iteration 123, loss = 0.05479638
+Iteration 124, loss = 0.05398965
+Iteration 125, loss = 0.05328731
+Iteration 126, loss = 0.05251770
+Iteration 127, loss = 0.05181440
+Iteration 128, loss = 0.05109185
+Iteration 129, loss = 0.05040221
+Iteration 130, loss = 0.04974597
+Iteration 131, loss = 0.04907363
+Iteration 132, loss = 0.04841534
+Iteration 133, loss = 0.04778429
+Iteration 134, loss = 0.04718524
+Iteration 135, loss = 0.04657248
+Iteration 136, loss = 0.04599535
+Iteration 137, loss = 0.04537307
+Iteration 138, loss = 0.04479698
+Iteration 139, loss = 0.04424016
+Iteration 140, loss = 0.04369048
+Iteration 141, loss = 0.04316124
+Iteration 142, loss = 0.04263744
+Iteration 143, loss = 0.04212388
+Iteration 144, loss = 0.04160305
+Iteration 145, loss = 0.04112406
+Iteration 146, loss = 0.04064773
+Iteration 147, loss = 0.04013985
+Iteration 148, loss = 0.03969949
+Iteration 149, loss = 0.03923298
+Iteration 150, loss = 0.03877382
+Iteration 151, loss = 0.03835102
+Iteration 152, loss = 0.03791474
+Iteration 153, loss = 0.03746758
+Iteration 154, loss = 0.03705819
+Iteration 155, loss = 0.03666981
+Iteration 156, loss = 0.03626375
+Iteration 157, loss = 0.03586940
+Iteration 158, loss = 0.03547212
+Iteration 159, loss = 0.03509225
+Iteration 160, loss = 0.03472237
+Iteration 161, loss = 0.03435806
+Iteration 162, loss = 0.03400803
+Iteration 163, loss = 0.03365788
+Iteration 164, loss = 0.03330419
+Iteration 165, loss = 0.03297287
+Iteration 166, loss = 0.03264362
+Iteration 167, loss = 0.03230422
+Iteration 168, loss = 0.03197794
+Iteration 169, loss = 0.03168897
+Iteration 170, loss = 0.03135255
+Iteration 171, loss = 0.03104803
+Iteration 172, loss = 0.03074269
+Iteration 173, loss = 0.03044616
+Iteration 174, loss = 0.03015409
+Iteration 175, loss = 0.02986730
+Iteration 176, loss = 0.02958124
+Iteration 177, loss = 0.02930019
+Iteration 178, loss = 0.02901789
+Iteration 179, loss = 0.02875738
+Iteration 180, loss = 0.02848613
+Iteration 181, loss = 0.02822811
+Iteration 182, loss = 0.02796126
+Iteration 183, loss = 0.02771669
+Iteration 184, loss = 0.02747105
+Iteration 185, loss = 0.02722305
+Iteration 186, loss = 0.02697792
+Iteration 187, loss = 0.02673558
+Iteration 188, loss = 0.02650435
+Iteration 189, loss = 0.02627920
+Iteration 190, loss = 0.02604223
+Iteration 191, loss = 0.02582520
+Iteration 192, loss = 0.02560619
+Iteration 193, loss = 0.02539116
+Iteration 194, loss = 0.02517218
+Iteration 195, loss = 0.02497295
+Iteration 196, loss = 0.02475808
+Iteration 197, loss = 0.02455034
+Iteration 198, loss = 0.02435431
+Iteration 199, loss = 0.02415486
+Iteration 200, loss = 0.02396001
+Iteration 201, loss = 0.02377324
+Iteration 202, loss = 0.02357500
+Iteration 203, loss = 0.02338808
+Iteration 204, loss = 0.02320667
+Iteration 205, loss = 0.02302033
+Iteration 206, loss = 0.02283749
+Iteration 207, loss = 0.02265954
+Iteration 208, loss = 0.02248578
+Iteration 209, loss = 0.02231419
+Iteration 210, loss = 0.02214284
+Iteration 211, loss = 0.02197549
+Iteration 212, loss = 0.02181545
+Iteration 213, loss = 0.02165267
+Iteration 214, loss = 0.02148910
+Iteration 215, loss = 0.02132663
+Iteration 216, loss = 0.02116928
+Iteration 217, loss = 0.02102002
+Iteration 218, loss = 0.02086522
+Iteration 219, loss = 0.02071426
+Iteration 220, loss = 0.02056285
+Iteration 221, loss = 0.02041710
+Iteration 222, loss = 0.02027055
+Iteration 223, loss = 0.02013278
+Iteration 224, loss = 0.01998455
+Iteration 225, loss = 0.01984164
+Iteration 226, loss = 0.01970808
+Iteration 227, loss = 0.01957197
+Iteration 228, loss = 0.01943845
+Iteration 229, loss = 0.01930706
+Iteration 230, loss = 0.01917420
+Iteration 231, loss = 0.01904492
+Iteration 232, loss = 0.01891066
+Iteration 233, loss = 0.01878767
+Iteration 234, loss = 0.01866135
+Iteration 235, loss = 0.01853992
+Iteration 236, loss = 0.01841710
+Iteration 237, loss = 0.01829924
+Iteration 238, loss = 0.01817951
+Iteration 239, loss = 0.01806207
+Iteration 240, loss = 0.01794083
+Iteration 241, loss = 0.01782891
+Iteration 242, loss = 0.01772023
+Iteration 243, loss = 0.01760225
+Iteration 244, loss = 0.01749622
+Iteration 245, loss = 0.01738557
+Iteration 246, loss = 0.01727501
+Iteration 247, loss = 0.01716619
+Iteration 248, loss = 0.01706174
+Iteration 249, loss = 0.01695747
+Iteration 250, loss = 0.01685176
+Iteration 251, loss = 0.01675112
+Iteration 252, loss = 0.01664806
+Iteration 253, loss = 0.01654673
+Iteration 254, loss = 0.01644566
+Iteration 255, loss = 0.01635078
+Iteration 256, loss = 0.01625208
+Iteration 257, loss = 0.01615662
+Iteration 258, loss = 0.01606202
+Iteration 259, loss = 0.01596759
+Iteration 260, loss = 0.01586969
+Iteration 261, loss = 0.01577978
+Iteration 262, loss = 0.01568878
+Iteration 263, loss = 0.01559943
+Iteration 264, loss = 0.01551013
+Iteration 265, loss = 0.01542068
+Training loss did not improve more than tol=0.000100 for 10 consecutive epochs. Stopping.
+------------------------------------------------------------------------------
+VALIDATION DATA RESULT
+------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           A       0.67      1.00      0.80         2
+           B       0.86      1.00      0.92         6
+           C       1.00      1.00      1.00         7
+           D       1.00      1.00      1.00         3
+           E       1.00      0.86      0.92         7
+           F       0.80      0.80      0.80         5
+           G       1.00      1.00      1.00         4
+           H       1.00      1.00      1.00         5
+           I       1.00      1.00      1.00         4
+           J       1.00      1.00      1.00         7
+           K       1.00      0.78      0.88         9
+           L       1.00      1.00      1.00         3
+           M       1.00      0.83      0.91         6
+           N       1.00      1.00      1.00         7
+           O       1.00      1.00      1.00         5
+           P       1.00      1.00      1.00         4
+           Q       1.00      1.00      1.00         2
+           R       0.80      1.00      0.89         8
+           S       1.00      0.75      0.86         4
+           T       0.80      0.80      0.80         5
+           U       0.80      1.00      0.89         4
+           V       1.00      1.00      1.00         6
+           W       1.00      0.75      0.86         4
+           X       0.75      1.00      0.86         3
+           Y       1.00      0.83      0.91         6
+           Z       0.75      1.00      0.86         3
+
+    accuracy                           0.93       129
+   macro avg       0.93      0.94      0.93       129
+weighted avg       0.94      0.93      0.93       129
+
+[[2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 6 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 5 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3]]
+0.9302325581395349
+------------------------------------------------------------------------------
+TEST DATA RESULT
+------------------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           A       0.86      1.00      0.92         6
+           B       0.83      0.83      0.83         6
+           C       0.75      1.00      0.86         3
+           D       1.00      1.00      1.00         6
+           E       1.00      0.86      0.92         7
+           F       1.00      0.80      0.89         5
+           G       1.00      0.82      0.90        11
+           H       0.60      1.00      0.75         3
+           I       0.83      1.00      0.91         5
+           J       1.00      1.00      1.00         4
+           K       1.00      0.71      0.83         7
+           L       1.00      1.00      1.00         8
+           M       0.50      0.33      0.40         3
+           N       0.83      0.83      0.83         6
+           O       1.00      1.00      1.00         7
+           P       1.00      1.00      1.00         8
+           Q       0.80      1.00      0.89         4
+           R       1.00      1.00      1.00         1
+           S       0.88      0.88      0.88         8
+           T       0.78      1.00      0.88         7
+           U       1.00      1.00      1.00         6
+           V       1.00      0.80      0.89         5
+           W       1.00      0.67      0.80         3
+           X       0.83      1.00      0.91         5
+           Y       0.67      0.67      0.67         3
+           Z       1.00      1.00      1.00         6
+
+    accuracy                           0.90       143
+   macro avg       0.89      0.89      0.88       143
+weighted avg       0.91      0.90      0.90       143
+
+[[6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 5 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 1 0 0 0 9 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 1 0]
+ [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6]]
+0.9020979020979021
+------------------------------------------------------------------------------
+OVERALL DATA
+------------------------------------------------------------------------------
+Training set score: 1.000000
+Validation set score: 0.930233
+Test set score: 0.902098
