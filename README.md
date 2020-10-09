@@ -1,5 +1,5 @@
-Distinguish-Handwritten-Alphabet
-================================
+Distinguish-Handwritten-Alphabet with AI
+========================================
 
 Introduction
 ------------
